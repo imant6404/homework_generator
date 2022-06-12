@@ -8,7 +8,7 @@
         {
             $primeNumbers = [];
             $index = 0;
-            for ($i = $list[1]; $i < sizeof($list); $i++) {
+            for ($i = $list[0]; $i < sizeof($list); $i++) {
                 $isPrime = true;
                 for ($j = $list[0]; $j < $i; $j++) {
                     if ($list[$i] % $list[$j] == 0) {
